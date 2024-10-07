@@ -37,6 +37,12 @@ public class Main {
                 System.out.println("El resultado de la resta es: " + operators.subtract(num3,num4));
                 menu();
                 break;
+            case 3:
+                System.out.println("Enter first number: ");
+                int num5 = scanner.nextInt();
+                System.out.println("Enter second number: ");
+                int num6 = scanner.nextInt();
+                System.out.println("El resultado de la multiplicacion es: " + operators.multiply(num5,num6));
             case 0:
                 System.out.println("Goodbye!");
                 break;
